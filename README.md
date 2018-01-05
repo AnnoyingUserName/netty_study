@@ -4,6 +4,8 @@
 本人初学者，有错误之处，还望谅解
 
 1、heartbeat_reconnect是基于netty实现的心跳检测与断线重连
+
 2、期待后续上传...
-		----Know Everything，Control Everything
+
+					----Know Everything，Control Everything
 
