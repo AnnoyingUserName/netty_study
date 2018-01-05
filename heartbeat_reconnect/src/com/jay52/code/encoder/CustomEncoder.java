@@ -16,7 +16,7 @@ public class CustomEncoder extends MessageToByteEncoder<CustomProtocol>{
 	@Override
 	protected void encode(ChannelHandlerContext ctx, CustomProtocol msg,
 			ByteBuf out) throws Exception {
-		// 写入消息SmartCar 的具体内容
+		// 写入消息的具体内容
 		// 1、写入消息的开头的信息标志
 		out.writeInt(msg.getHead_data());
 		// 2、写入消息的长度
